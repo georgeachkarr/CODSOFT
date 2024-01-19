@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator Project</title>
+</head>
+<body>
+    <div class="container toggle">
+        <div class="calculator">
+            <div class="result">
+                <div>
+                    <input type="text" disabled id="result-history">
+                </div>
+                <div>
+                    <input type="text" id="current-result" disabled>
+                </div>
+            </div>
+            <div class="btns">
+                <button>All Clear</button>
+                <button>(</button>
+                <button>)</button>
+                <button class="operator">+/-</button>
+                <button class="operator">%</button>
+                <button class="operator" value="/">÷</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="operator">&times;</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="operator">&minus;</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="operator">&plus;</button>
+                <button class="zero">0</button>
+                <button>.</button>
+                <button class="operator">&equals;</button>
+            </div>
+        </div>
+        <div class="history-container">
+            <ul id="list">
+        
+            </ul>
+        </div>
+        <button class="historyBtn">Show History</button>
+    </div>
+</body>
+</html>
